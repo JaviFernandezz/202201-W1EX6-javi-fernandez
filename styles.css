@@ -2,6 +2,15 @@
   font-family: "Karla", sans-serif;
 }
 
+.header {
+  border-bottom: 1 solid black;
+}
+
+.fa-angle-down {
+  font-size: 10px;
+  color: black;
+}
+
 .header-nav {
   display: flex;
   justify-content: flex-start;
@@ -37,4 +46,9 @@
   color: white;
   border: none;
   margin: 0px 0px 0px 20px;
+}
+
+.start-button:hover {
+  background-color: white;
+  color: hsl(161deg 63% 53%);
 }
