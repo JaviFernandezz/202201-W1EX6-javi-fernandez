@@ -1,3 +1,40 @@
 * {
   font-family: "Karla", sans-serif;
 }
+
+.header-nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.header-nav_pages {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.login-start {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 200px;
+}
+
+.logo {
+  margin-right: 2px;
+}
+
+.start-button {
+  border-radius: 15px;
+  height: 40px;
+  width: 120px;
+  background-color: hsl(161deg 63% 53%);
+  color: white;
+  border: none;
+  margin: 0px 0px 0px 20px;
+}
